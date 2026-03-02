@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: renovacao-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn renovacao_api:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
