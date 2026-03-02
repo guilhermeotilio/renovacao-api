@@ -1,0 +1,8 @@
+flask
+flask-cors
+pandas
+numpy
+requests
+openpyxl
+gunicorn
+python-dateutil
